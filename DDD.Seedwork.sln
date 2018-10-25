@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E3F69A6-763B-4D18-8550-398E5A7A3D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0B5903F6-AD61-4710-A79B-AF78AB0A0214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Seedwork", "src\DDD.Seedwork\DDD.Seedwork.csproj", "{DF8CF089-484D-4002-95CA-B43432CF4011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8CF089-484D-4002-95CA-B43432CF4011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8CF089-484D-4002-95CA-B43432CF4011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8CF089-484D-4002-95CA-B43432CF4011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8CF089-484D-4002-95CA-B43432CF4011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF8CF089-484D-4002-95CA-B43432CF4011} = {1E3F69A6-763B-4D18-8550-398E5A7A3D2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1814D218-D3B9-4C7D-AD85-3D4796CF4A52}
+	EndGlobalSection
+EndGlobal
