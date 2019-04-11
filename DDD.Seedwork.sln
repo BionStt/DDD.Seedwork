@@ -7,7 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E3F69A6-763
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0B5903F6-AD61-4710-A79B-AF78AB0A0214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Seedwork", "src\DDD.Seedwork\DDD.Seedwork.csproj", "{DF8CF089-484D-4002-95CA-B43432CF4011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Seedwork", "src\DDD.Seedwork\DDD.Seedwork.csproj", "{DF8CF089-484D-4002-95CA-B43432CF4011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{273C1F8E-3A6E-4022-9FF4-BBAB466FE9B6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Seedwork.UnitTests", "test\DDD.Seedwork.UnitTests\DDD.Seedwork.UnitTests.csproj", "{40EB54C6-2270-4391-8735-C1CD1591A049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{24BC1684-B644-4E99-A0BB-AA3876C50B7D}"
+	ProjectSection(SolutionItems) = preProject
+		screenshots\screenshot-tests-entitybase.png = screenshots\screenshot-tests-entitybase.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +31,18 @@ Global
 		{DF8CF089-484D-4002-95CA-B43432CF4011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8CF089-484D-4002-95CA-B43432CF4011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8CF089-484D-4002-95CA-B43432CF4011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EB54C6-2270-4391-8735-C1CD1591A049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EB54C6-2270-4391-8735-C1CD1591A049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EB54C6-2270-4391-8735-C1CD1591A049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EB54C6-2270-4391-8735-C1CD1591A049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF8CF089-484D-4002-95CA-B43432CF4011} = {1E3F69A6-763B-4D18-8550-398E5A7A3D2B}
+		{40EB54C6-2270-4391-8735-C1CD1591A049} = {0B5903F6-AD61-4710-A79B-AF78AB0A0214}
+		{24BC1684-B644-4E99-A0BB-AA3876C50B7D} = {273C1F8E-3A6E-4022-9FF4-BBAB466FE9B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1814D218-D3B9-4C7D-AD85-3D4796CF4A52}
