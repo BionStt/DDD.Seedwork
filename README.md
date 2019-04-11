@@ -5,3 +5,6 @@ A small subset of custom reusable base classes for Domain-Driven Design.
 
 ##### EntityBase #####
 <img src="screenshots/screenshot-tests-entitybase.png" />
+
+##### ValueObjectBase #####
+<img src="screenshots/screenshot-tests-valueobjectbase.png" />
