@@ -1,6 +1,6 @@
 ﻿namespace DDD.Seedwork
 {
-    public interface IRepository<T> where T : IAggregateRoot
+    public interface IRepository<TRoot> where TRoot : IAggregateRoot
     {
     }
 }

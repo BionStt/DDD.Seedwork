@@ -11,3 +11,6 @@ A small subset of custom reusable base classes for Domain-Driven Design.
 
 ##### DomainEventBase #####
 <img src="screenshots/screenshot-tests-domaineventbase.png" />
+
+##### AggregateRootBase #####
+<img src="screenshots/screenshot-tests-aggregaterootbase.png" />
