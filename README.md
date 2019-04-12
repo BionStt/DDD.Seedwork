@@ -8,3 +8,6 @@ A small subset of custom reusable base classes for Domain-Driven Design.
 
 ##### ValueObjectBase #####
 <img src="screenshots/screenshot-tests-valueobjectbase.png" />
+
+##### DomainEventBase #####
+<img src="screenshots/screenshot-tests-domaineventbase.png" />

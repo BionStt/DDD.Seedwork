@@ -18,6 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Seedwork.UnitTests", "t
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{24BC1684-B644-4E99-A0BB-AA3876C50B7D}"
 	ProjectSection(SolutionItems) = preProject
+		screenshots\screenshot-tests-domaineventbase.png = screenshots\screenshot-tests-domaineventbase.png
 		screenshots\screenshot-tests-entitybase.png = screenshots\screenshot-tests-entitybase.png
 		screenshots\screenshot-tests-valueobjectbase.png = screenshots\screenshot-tests-valueobjectbase.png
 	EndProjectSection
